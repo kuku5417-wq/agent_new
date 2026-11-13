@@ -5,9 +5,9 @@
 
 ### 만들 것
 - [ ] 0. GitHub 새 저장소 연결 (사용자가 만들고 Claude 앱 권한에 추가) → git init, 첫 커밋
-- [ ] 1. 배포 묶음 만드는 스크립트 `make_bundle.py` — shi_dev의 정한 판(태그)에서 shi 플러그인 + install_local.py + 동료용 설치 안내를 모아 `shi_사내망_<버전>.zip` 하나로
-- [ ] 2. 설치_안내(동료용).md — GitHub 없이: NAS의 zip 경로 → Claude Code에 "풀고 설치해 줘" 한 마디. 준비물 확인 포함
-- [ ] 3. 시작_한장.md — 동료가 처음 할 일 순서: 설치 → 새 앱 폴더 `/shi-init internal` → 명세(spec-writer) → `/shi-slice` → `/shi-package`
+- [x] 1. 배포 묶음 만드는 스크립트 `make_bundle.py` — shi_dev의 정한 판(태그)에서 shi 플러그인 + install_local.py + 동료용 설치 안내를 모아 `shi_사내망_<버전>.zip` 하나로
+- [x] 2. 설치_안내.md (동료용) — GitHub 없이: NAS의 zip 경로 → Claude Code에 "풀고 설치해 줘" 한 마디. 준비물 확인 포함
+- [x] 3. 시작_한장.md — 동료가 처음 할 일 순서: 설치 → 새 앱 폴더 `/shi-init internal` → 명세(spec-writer) → `/shi-slice` → `/shi-package`
 - [ ] 4. 자주_쓰는_말.md — Claude에게 붙여 넣는 문장 카드 (명세 만들기, 슬라이스, 검토, 배포, 막혔을 때)
 - [ ] 5. 자주_묻는_것.md — 훅 실패, 스킬 안 보임, 데이터 위치, 0.0.0.0 금지 이유, 업데이트 방법
 - [ ] 6. 배포_절차.md (나용) — 판 올리기 → zip 만들기 → NAS `배포\shi\v<버전>\`에 두기 → 아티팩트 안내 페이지 갱신 → 동료 알림
