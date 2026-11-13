@@ -43,3 +43,8 @@
 - make_bundle.py 시험: shi_dev fa9ba95(0.4.0)으로 zip 73KB·파일 45개, 풀어서 install_local.py 설치 → 에이전트 8, 스킬 10 확인
 - README 추가, dist/ 는 .gitignore
 - 남은 것: 7 아티팩트 안내 페이지(확인받고), 8 동료 시범 설치
+
+## 2026-11-13 shi 0.5.0 맞춤
+- [x] 설치_안내·배포_절차·README 판 0.5.0, 에이전트 9개(ux-reviewer)
+- [x] make_bundle 시험: dist/shi_사내망_0.5.0.zip (77 KB, 46개) — dist/는 git 밖
+- [ ] NAS 배포\shi\v0.5.0\ 복사, 안내 페이지(사내망에서 아티팩트 열리는지 확인 뒤), 동료 1명 시범 설치
